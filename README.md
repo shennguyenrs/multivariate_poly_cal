@@ -21,8 +21,8 @@ sh ./makenrun.sh main header
   - [x] Parse inputted string of monomial
   - [x] Check valid inputted monomial pattern with Regex
 - [x] Perform addtion or subtract on polynomials or monomials
-- [ ] Perform multiply on polynomials. Basically, It can perform basic multiply.
-  - [ ] Implement Polynomonial on Vector, so that the inputted monomial will not be changed its order.
+- [ ] Perform multiply on polynomials. Basically, It can perform basic multiply
+  - [ ] Implement Polynomonial on Vector, so that the inputted monomial will not be changed its order
   - [ ] Perform multiply and divide inputting monomials continuously. Ex: 4x^3\*5y^2\*12z^7
   - [x] Arrange order of variables in monomials which has more than one variable when multiplying
 - [x] Evaluate result polynomial
