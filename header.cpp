@@ -32,7 +32,7 @@ char Monomial::getVar()
   return variable;
 }
 
-pair <string, float> Monomial::makeDict()
+pair<string, float> Monomial::makeDict()
 {
   return make_pair(makeKey(), getCoeff());
 }
@@ -59,23 +59,6 @@ map<string, float> Polynomial::getPoly()
 set<char> Polynomial::getUniVar()
 {
   return uniqueVar;
-}
-
-vector<pair<string, float>>::iterator findKey(string key)
-{ 
-  vector<pair<string, float>>::iterator itr;
-
-  for(itr=polynomial.begin(); itr!=polynomial.end(); itr++
-  {
-    string baseKey = itr->second;
-
-    if(key==baseKey)
-    {
-      return itr;
-    }
-  }
-
-  return itr=lastItem;
 }
 
 void Polynomial::insertUniVar(Monomial mono)

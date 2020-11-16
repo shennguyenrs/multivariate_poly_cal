@@ -5,63 +5,125 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 DIVIDE	header.hpp	/^const char DIVIDE = '\/';$/;"	v
+DIVIDE	test/header.hpp	/^const char DIVIDE = '\/';$/;"	v
 EXIT	header.hpp	/^const string EXIT = "0";$/;"	v
+EXIT	test/header.hpp	/^const string EXIT = "0";$/;"	v
 FIRST	header.hpp	/^const unsigned int FIRST = 1;$/;"	v
+FIRST	test/header.hpp	/^const unsigned int FIRST = 1;$/;"	v
 MINUS	header.hpp	/^const char MINUS = '-';$/;"	v
+MINUS	test/header.hpp	/^const char MINUS = '-';$/;"	v
 MULTIPLY	header.hpp	/^const char MULTIPLY = '*';$/;"	v
+MULTIPLY	test/header.hpp	/^const char MULTIPLY = '*';$/;"	v
 Monomial	header.hpp	/^    Monomial(float coefficient, char variable, int exponent):$/;"	f	class:Monomial
 Monomial	header.hpp	/^class Monomial$/;"	c
+Monomial	test/header.hpp	/^    Monomial(float coefficient, char variable, int exponent):$/;"	f	class:Monomial
+Monomial	test/header.hpp	/^class Monomial$/;"	c
 MultiPolynomials	header.hpp	/^class MultiPolynomials$/;"	c
+MultiPolynomials	test/header.hpp	/^class MultiPolynomials$/;"	c
 PLUS	header.hpp	/^const char PLUS = '+';$/;"	v
+PLUS	test/header.hpp	/^const char PLUS = '+';$/;"	v
 Polynomial	header.hpp	/^class Polynomial$/;"	c
+Polynomial	test/header.hpp	/^class Polynomial$/;"	c
 VAR	header.hpp	/^const unsigned int VAR = 0;$/;"	v
+VAR	test/header.hpp	/^const unsigned int VAR = 0;$/;"	v
 addMono	header.cpp	/^void Polynomial::addMono(Monomial mono)$/;"	f	class:Polynomial
+addMono	test/header.cpp	/^void Polynomial::addMono(Monomial mono)$/;"	f	class:Polynomial
 coefficient	header.hpp	/^    float coefficient;$/;"	m	class:Monomial
+coefficient	test/header.hpp	/^    float coefficient;$/;"	m	class:Monomial
 divideDiffVar	header.cpp	/^string Polynomial::divideDiffVar(string oldKey, string key)$/;"	f	class:Polynomial
+divideDiffVar	test/header.cpp	/^string Polynomial::divideDiffVar(string oldKey, string key)$/;"	f	class:Polynomial
 divideMono	header.cpp	/^void Polynomial::divideMono(Monomial mono)$/;"	f	class:Polynomial
+divideMono	test/header.cpp	/^void Polynomial::divideMono(Monomial mono)$/;"	f	class:Polynomial
 doEvaluate	header.cpp	/^float Polynomial::doEvaluate(map<char, float> varDict)$/;"	f	class:Polynomial
+doEvaluate	test/header.cpp	/^float Polynomial::doEvaluate(map<char, float> varDict)$/;"	f	class:Polynomial
 doOperate	header.cpp	/^Polynomial MultiPolynomials::doOperate()$/;"	f	class:MultiPolynomials
+doOperate	test/header.cpp	/^Polynomial MultiPolynomials::doOperate()$/;"	f	class:MultiPolynomials
 exponent	header.hpp	/^    int exponent;$/;"	m	class:Monomial
+exponent	test/header.hpp	/^    int exponent;$/;"	m	class:Monomial
+findItem	test/header.cpp	/^vector<pair<string, float>>::iterator findItem(vector<pair<string, float>> vec, string key)$/;"	f
 findMultiply	header.cpp	/^unsigned int MultiPolynomials::findMultiply()$/;"	f	class:MultiPolynomials
+findMultiply	test/header.cpp	/^unsigned int MultiPolynomials::findMultiply()$/;"	f	class:MultiPolynomials
 floatConvert	header.cpp	/^float floatConvert(string n)$/;"	f
+floatConvert	test/header.cpp	/^float floatConvert(string n)$/;"	f
 getCoeff	header.cpp	/^float Monomial::getCoeff()$/;"	f	class:Monomial
+getCoeff	test/header.cpp	/^float Monomial::getCoeff()$/;"	f	class:Monomial
 getPoly	header.cpp	/^map<string, float> Polynomial::getPoly()$/;"	f	class:Polynomial
+getPoly	test/header.cpp	/^vector<pair<string, float>> Polynomial::getPoly()$/;"	f	class:Polynomial
 getTotUniVar	header.cpp	/^set<char> MultiPolynomials::getTotUniVar()$/;"	f	class:MultiPolynomials
+getTotUniVar	test/header.cpp	/^set<char> MultiPolynomials::getTotUniVar()$/;"	f	class:MultiPolynomials
 getUniVar	header.cpp	/^set<char> Polynomial::getUniVar()$/;"	f	class:Polynomial
+getUniVar	test/header.cpp	/^set<char> Polynomial::getUniVar()$/;"	f	class:Polynomial
 getVar	header.cpp	/^char Monomial::getVar()$/;"	f	class:Monomial
+getVar	test/header.cpp	/^char Monomial::getVar()$/;"	f	class:Monomial
 insertMono	header.cpp	/^void Polynomial::insertMono(Monomial mono)$/;"	f	class:Polynomial
+insertMono	test/header.cpp	/^void Polynomial::insertMono(Monomial mono)$/;"	f	class:Polynomial
 insertPoly	header.cpp	/^void MultiPolynomials::insertPoly(Polynomial poly, char opr)$/;"	f	class:MultiPolynomials
+insertPoly	test/header.cpp	/^void MultiPolynomials::insertPoly(Polynomial poly, char opr)$/;"	f	class:MultiPolynomials
 insertTotUniVar	header.cpp	/^void MultiPolynomials::insertTotUniVar(Polynomial poly)$/;"	f	class:MultiPolynomials
+insertTotUniVar	test/header.cpp	/^void MultiPolynomials::insertTotUniVar(Polynomial poly)$/;"	f	class:MultiPolynomials
 insertUniVar	header.cpp	/^void Polynomial::insertUniVar(Monomial mono)$/;"	f	class:Polynomial
+insertUniVar	test/header.cpp	/^void Polynomial::insertUniVar(Monomial mono)$/;"	f	class:Polynomial
 intConvert	header.cpp	/^unsigned int intConvert(string n)$/;"	f
+intConvert	test/header.cpp	/^unsigned int intConvert(string n)$/;"	f
 isEmpty	header.cpp	/^bool MultiPolynomials::isEmpty()$/;"	f	class:MultiPolynomials
 isEmpty	header.cpp	/^bool Polynomial::isEmpty()$/;"	f	class:Polynomial
+isEmpty	test/header.cpp	/^bool MultiPolynomials::isEmpty()$/;"	f	class:MultiPolynomials
+isEmpty	test/header.cpp	/^bool Polynomial::isEmpty()$/;"	f	class:Polynomial
 isEqual	header.hpp	21;"	d
+isEqual	test/header.hpp	21;"	d
 isExit	header.hpp	20;"	d
+isExit	test/header.hpp	20;"	d
 isFloat	header.cpp	/^bool isFloat(string n)$/;"	f
+isFloat	test/header.cpp	/^bool isFloat(string n)$/;"	f
 isInt	header.cpp	/^bool isInt(string n)$/;"	f
+isInt	test/header.cpp	/^bool isInt(string n)$/;"	f
 isMonoValid	header.cpp	/^bool isMonoValid(string str, unsigned int index)$/;"	f
+isMonoValid	test/header.cpp	/^bool isMonoValid(string str, unsigned int index)$/;"	f
 isOtherOpr	header.cpp	/^bool isOtherOpr(string opr, unsigned int index)$/;"	f
+isOtherOpr	test/header.cpp	/^bool isOtherOpr(string opr, unsigned int index)$/;"	f
 lastItem	header.hpp	/^    map<string, float>::iterator lastItem = polynomial.end();$/;"	m	class:Polynomial
+lastItem	test/header.hpp	/^    vector<pair<string, float>>::iterator lastItem = polynomial.end();$/;"	m	class:Polynomial
 main	main.cpp	/^int main()$/;"	f
-makeDict	header.cpp	/^pair <string, float> Monomial::makeDict()$/;"	f	class:Monomial
+main	test/main.cpp	/^int main()$/;"	f
+makeDict	header.cpp	/^pair<string, float> Monomial::makeDict()$/;"	f	class:Monomial
+makeDict	test/header.cpp	/^pair <string, float> Monomial::makeDict()$/;"	f	class:Monomial
 makeKey	header.cpp	/^string Monomial::makeKey()$/;"	f	class:Monomial
+makeKey	test/header.cpp	/^string Monomial::makeKey()$/;"	f	class:Monomial
 mpItr	header.hpp	/^    vector<pair<Polynomial, char>>::iterator mpItr;$/;"	m	class:MultiPolynomials
+mpItr	test/header.hpp	/^    vector<pair<Polynomial, char>>::iterator mpItr;$/;"	m	class:MultiPolynomials
 multiPolynomials	header.hpp	/^    vector<pair<Polynomial, char>> multiPolynomials;$/;"	m	class:MultiPolynomials
+multiPolynomials	test/header.hpp	/^    vector<pair<Polynomial, char>> multiPolynomials;$/;"	m	class:MultiPolynomials
 multiplyKeys	header.cpp	/^string MultiPolynomials::multiplyKeys(string key1, string key2)$/;"	f	class:MultiPolynomials
+multiplyKeys	test/header.cpp	/^string MultiPolynomials::multiplyKeys(string key1, string key2)$/;"	f	class:MultiPolynomials
 multiplyMono	header.cpp	/^void Polynomial::multiplyMono(Monomial mono)$/;"	f	class:Polynomial
+multiplyMono	test/header.cpp	/^void Polynomial::multiplyMono(Monomial mono)$/;"	f	class:Polynomial
 negativePoly	header.cpp	/^void Polynomial::negativePoly()$/;"	f	class:Polynomial
+negativePoly	test/header.cpp	/^void Polynomial::negativePoly()$/;"	f	class:Polynomial
 operateMultiply	header.cpp	/^Polynomial MultiPolynomials::operateMultiply(Polynomial poly1, Polynomial poly2)$/;"	f	class:MultiPolynomials
+operateMultiply	test/header.cpp	/^Polynomial MultiPolynomials::operateMultiply(Polynomial poly1, Polynomial poly2)$/;"	f	class:MultiPolynomials
 operatePlus	header.cpp	/^Polynomial MultiPolynomials::operatePlus()$/;"	f	class:MultiPolynomials
+operatePlus	test/header.cpp	/^Polynomial MultiPolynomials::operatePlus()$/;"	f	class:MultiPolynomials
 operateSameVar	header.cpp	/^string Polynomial::operateSameVar(char opr, string oldKey, string key)$/;"	f	class:Polynomial
+operateSameVar	test/header.cpp	/^string Polynomial::operateSameVar(char opr, string oldKey, string key)$/;"	f	class:Polynomial
 operator =	header.cpp	/^void Polynomial::operator = (map<string, float> newPoly)$/;"	f	class:Polynomial
+operator =	test/header.cpp	/^void Polynomial::operator = (vector<pair<string, float>> newPoly)$/;"	f	class:Polynomial
 parseStr	header.cpp	/^void parseStr($/;"	f
+parseStr	test/header.cpp	/^void parseStr($/;"	f
 plItr	header.hpp	/^    map<string, float>::iterator plItr;$/;"	m	class:Polynomial
+plItr	test/header.hpp	/^    vector<pair<string, float>>::iterator plItr;$/;"	m	class:Polynomial
 polynomial	header.hpp	/^    map<string, float> polynomial;$/;"	m	class:Polynomial
+polynomial	test/header.hpp	/^    vector<pair<string, float>> polynomial;$/;"	m	class:Polynomial
 printPoly	header.cpp	/^void Polynomial::printPoly()$/;"	f	class:Polynomial
+printPoly	test/header.cpp	/^void Polynomial::printPoly()$/;"	f	class:Polynomial
 totalUniqueVar	header.hpp	/^    set<char> totalUniqueVar;$/;"	m	class:MultiPolynomials
+totalUniqueVar	test/header.hpp	/^    set<char> totalUniqueVar;$/;"	m	class:MultiPolynomials
 tuvItr	header.hpp	/^    set<char>::iterator tuvItr;$/;"	m	class:MultiPolynomials
+tuvItr	test/header.hpp	/^    set<char>::iterator tuvItr;$/;"	m	class:MultiPolynomials
 uniqueVar	header.hpp	/^    set<char> uniqueVar;$/;"	m	class:Polynomial
+uniqueVar	test/header.hpp	/^    set<char> uniqueVar;$/;"	m	class:Polynomial
 updateMono	header.cpp	/^void Polynomial::updateMono(string newKey, float newValue)$/;"	f	class:Polynomial
+updateMono	test/header.cpp	/^void Polynomial::updateMono(string newKey, float newValue)$/;"	f	class:Polynomial
 uvItr	header.hpp	/^    set<char>::iterator uvItr;$/;"	m	class:Polynomial
+uvItr	test/header.hpp	/^    set<char>::iterator uvItr;$/;"	m	class:Polynomial
 variable	header.hpp	/^    char variable;$/;"	m	class:Monomial
+variable	test/header.hpp	/^    char variable;$/;"	m	class:Monomial
